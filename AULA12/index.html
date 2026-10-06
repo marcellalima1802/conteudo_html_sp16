@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Conteudo Aula12 - HTML</title>
+
+        <style>
+
+            /*Alinhando divs com o float*/
+
+            .div-float {
+                width: 100%;
+                overflow: auto;
+            }
+
+            .div-float div {
+                width: 33%;
+                float: left;
+                margin: 10px;
+            }
+
+            /*Alinhando divs com inline-block*/
+
+            .div-float {
+                width: 100%;
+                overflow: auto;
+            }
+
+            .div-inline-block div {
+                display: inline-block;
+            }
+
+
+            /*Alinahndo divs com flex */
+
+            .div-flex{
+                display: flex;
+            }
+
+            .div-flex div{
+                width: 33%;
+            }
+
+            /*Alinhando divs com o grid*/
+
+            .div-grid {
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+            }
+
+            
+
+
+        </style>
+
+
+    </head>
+    <body>
+            
+         <h1>Divs no HTML</h1>
+
+         <h3>Vários Elementos div</h3>
+
+         <div style="background-color: blueviolet ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+          <div style="background-color: aquamarine ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+         
+         <div style="background-color: slateblue ;" >
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+         <hr>
+
+         <h2>Alinhando divs lado a lado</h2>
+         
+         <h3>Utilizando o float</h3>
+
+         <div class="div-float">
+
+            <div style="background-color: blueviolet ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+          <div style="background-color: aquamarine ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+         
+         <div style="background-color: slateblue ;" >
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+         </div>
+
+         <br>
+
+         <h3>Utilizando inline-block</h3>
+
+         <div class=" div inline-block">
+
+<div style="background-color: blueviolet ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+          <div style="background-color: aquamarine ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+         
+         <div style="background-color: slateblue ;" >
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+         </div>
+
+         <br>
+
+         <h3>Utilizando o flex</h3>
+
+         <div class="div flex">
+
+        <div style="background-color: blueviolet ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+          <div style="background-color: aquamarine ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+         
+         <div style="background-color: slateblue ;" >
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+         </div>
+
+         <br>
+
+         <h3>Utilizando grid</h3>
+         
+         <div class="div-gric">
+
+            <div style="background-color: blueviolet ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+          <div style="background-color: aquamarine ;">
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+         
+         <div style="background-color: slateblue ;" >
+            <h2>Isso é um h2</h2>
+            <p>Isso é um paragráfo</p>
+            <p>Isso é um paragráfo</p>
+         </div>
+
+         </div>
+
+    </body>
+</html>
+
